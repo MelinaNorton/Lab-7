@@ -1,3 +1,6 @@
+/*
+ * Ayden Sabol, Melina Norton and Owen Schuyler
+ */
 package cpsc2150.listDec;
 
 import java.util.Collection;
