@@ -31,7 +31,4 @@ public interface IShuffleList<T> extends List<T> {
         this.set(j, i_val);
     }
 
-    public default void randomize(){
 
-    }
-}
