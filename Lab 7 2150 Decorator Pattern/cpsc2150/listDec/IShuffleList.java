@@ -27,8 +27,8 @@ public interface IShuffleList<T> extends List<T> {
     default void swap(int i, int j) {
         T i_val = this.get(i);
         T j_val = this.get(j);
-        this.add(i, j_val);
-        this.add(j, i_val);
+        this.set(i, j_val);
+        this.set(j, i_val);
     }
 
     public default void randomize(){
