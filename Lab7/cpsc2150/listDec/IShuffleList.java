@@ -33,5 +33,7 @@ public interface IShuffleList<T> extends List<T> {
         this.set(i, j_val);
         this.set(j, i_val);
     }
+    
+}
 
 
